@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Manrope:wght@500;600;700;800&family=Open+Sans:ital,wght@0,300;1,500&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Auto</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="overlay"></div>
+      <div class="header">
+        <a class="burger" href="#">
+          <span></span>
+        </a>
+        <div class="header__top">
+          <div class="container">
+            <div class="header__top-inner">
+              <a class="header__logo Logo" href="#">
+                <img class="Logo" src="../auto/images/Logo.svg" alt="Logo">
+              </a>
+              <div class="header__nav-container">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#">Home</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#about">About us</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#maps">Services</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#blog">Blog</a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a class="header__nav-link" href="#experts">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="header__btn-box">
+                <div class="header__user-btn">Road Assistance</div>
+                <a class="header__user-btntel" href="tel:18002652452">1800 265 24 52</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__body">
+          <div class="container">
+            <div class="header__body-inner">
+              <div class="header__main">
+                <div class="header__content">
+                  <h1 class="header__title">Get your vehicle service done online at one place</h1>
+                  <div class="header__content-button">
+                    <a class="header__content-btn button" href="#">Book a service</a>
+                    <a class="header__content-btn button-play" href="https://youtu.be/9l2fbQM9OiA?si=aU64vRVMusygVAFx"
+                      data-fancybox>Play Video</a>
+                  </div>
+                  <div class="header__container-worktime">
+                    <div class="header__container-open">We are open</div>
+                    <div class="header__content-worktime">Monday to Friday 9:00 AM to 10:00 AM</div>
+                  </div>
+                </div>
+                <div class="header__container-img24">
+                  <img class="header__img" src="../auto/images/header-img.jpg" alt="">
+                  <div class="header__main-24hr">
+                    <div class="header__svg">24 hr</div>
+                    Quick service
+                  </div>
+                  <div class="rating__container">
+                    <div class="rating__col">
+                      <div class="rating__number">4.5/5</div>
+                      <p class="rating__text">Rating</p>
+                    </div>
+                    <div class="rateYo"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="main">
+        <section class="main__about about" id="about">
+          <div class="myb__about">
+            <div class="myb__about-text">What we Offer</div>
+            <div class="about__box-content">
+              <h2 class="myb__about-2">We offer full service auto repair</h2>
+              <h2 class="myb__about-22">& maintenance</h2>
+            </div c>
+            <div class="container">
+              <ul class="myb__list-logo">
+                <li class="myb__about-item myb__about-item--text"><span>
+                    <svg width="44" height="49" viewBox="0 0 44 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.252823 27.0167C0.468002 26.7483 0.789085 26.5917 1.12594 26.5917H5.40814C6.46489 23.7424 7.8416 20.9508 9.40644 19.897C14.8198 16.2565 29.1783 16.2565 34.5916 19.897C36.1575 20.9519 37.5286 23.747 38.591 26.5917H42.8732C43.2134 26.5917 43.5334 26.7483 43.7463 27.0167C43.9604 27.2839 44.046 27.6374 43.9761 27.9772L43.3419 31.119C43.2337 31.6545 42.7718 32.0368 42.2389 32.0368H40.9704C42.195 33.4811 42.7887 35.2996 42.7966 37.1192C42.8045 39.3673 41.9697 41.3989 40.4431 42.8362C40.4262 42.8511 40.4093 42.8615 40.3936 42.8765V47.2724C40.3936 48.2249 39.6365 49 38.7037 49H34.7538C33.821 49 33.0639 48.2249 33.0639 47.2724V45.5058H10.9364V47.2724C10.9364 48.2249 10.1793 49 9.24647 49H5.29661C4.36604 49 3.60671 48.2249 3.60671 47.2724V42.9629C1.98666 41.4461 1.21269 39.3592 1.20255 37.2758C1.19579 35.394 1.81654 33.5087 3.11326 32.0345H1.76022C1.22508 32.0345 0.763172 31.6522 0.657272 31.1155L0.0218735 27.9749C-0.0434723 27.6374 0.0387688 27.2862 0.252823 27.0167ZM32.7361 22.7819C28.4212 19.8785 15.5791 19.8785 11.2665 22.7819C10.4283 23.344 9.35012 25.6162 8.36209 28.3987H35.6382C34.6524 25.6174 33.5743 23.3463 32.7361 22.7819ZM37.79 37.5523C37.79 35.675 36.3006 34.1548 34.4654 34.1548C32.6279 34.1548 31.1408 35.675 31.1408 37.5523C31.1408 39.4295 32.6279 40.9509 34.4654 40.9509C36.3006 40.9509 37.79 39.4295 37.79 37.5523ZM9.49094 40.9509C11.3262 40.9509 12.8155 39.4295 12.8155 37.5523C12.8155 35.675 11.3262 34.1548 9.49094 34.1548C7.65345 34.1548 6.16634 35.675 6.16634 37.5523C6.16634 39.4295 7.65571 40.9509 9.49094 40.9509Z"
+                        fill="#1E1B1B" />
+                      <mask id="mask0_482_1528" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="6" y="0"
+                        width="25" height="28">
+                        <path
+                          d="M26.5548 14.4818C26.5055 15.0402 26.198 15.5656 25.6835 15.8602C25.2563 16.1048 24.8161 16.2847 24.3664 16.4064C24.6198 17.2806 25.0853 18.5457 25.914 19.9007C26.7012 21.1883 26.7105 22.7423 25.9388 24.1645C24.8019 26.2606 22.2915 27.6691 19.691 27.6691C17.9051 27.6691 16.3173 26.8283 15.2205 25.3014C13.653 23.1184 13.3056 19.8968 14.2919 16.6853C15.2062 13.7082 13.9834 12.12 13.1744 11.4373C12.5149 12.0871 11.6203 12.4878 10.6316 12.4878C8.60565 12.4878 6.96218 10.8082 6.96218 8.73616C6.96218 6.66411 8.60565 4.98501 10.6316 4.98501C12.6585 4.98501 14.301 6.66459 14.301 8.73616C14.301 9.0279 14.2655 9.31025 14.204 9.58283C15.7317 10.7252 17.4954 13.2966 16.2611 17.3169C15.4828 19.852 15.7216 22.4327 16.8852 24.0525C17.3785 24.74 18.2664 25.5593 19.6916 25.5593C21.5355 25.5593 23.3624 24.5648 24.134 23.1416C24.4186 22.6166 24.6543 21.8214 24.1635 21.0185C23.0674 19.2249 22.5188 17.5512 22.2587 16.5282C21.6495 16.4344 21.0547 16.2335 20.4825 15.9212C19.9725 15.6428 19.6596 15.1389 19.5907 14.5943C17.1663 12.3538 16.0469 8.31686 15.9825 8.0806C15.8518 7.59595 16.0752 7.0984 16.4917 6.87154C16.1569 3.84091 17.2541 2.31345 17.9162 1.69128C17.8657 1.40011 17.9797 1.08865 18.2299 0.921722L19.4465 0.108913C19.7642 -0.103252 20.1637 0.00382639 20.3379 0.349531L20.9176 1.49477C21.0922 1.84057 20.9383 2.20932 20.5735 2.31933L19.1981 2.7338C18.8494 2.83889 18.4316 2.66855 18.2341 2.35613C17.686 2.94644 16.8967 4.26069 17.1686 6.76778C17.5424 6.84052 17.8628 7.11889 17.9713 7.51913C18.3018 8.7317 19.2563 11.2363 20.6735 12.7382C21.1246 12.56 21.6432 12.5688 22.1032 12.8192C22.4028 12.9828 22.6957 13.0652 22.9964 13.0716H23.0584C23.3753 13.0647 23.6847 12.9734 24.0015 12.7922C24.4502 12.5349 24.9612 12.5123 25.4118 12.6748C26.7973 11.1668 27.7315 8.7152 28.0565 7.51932C28.1653 7.12012 28.4869 6.84109 28.8594 6.76844C29.1318 4.26135 28.3428 2.9471 27.7939 2.3568C27.5963 2.66912 27.179 2.83955 26.8302 2.73437L25.4548 2.3199C25.0906 2.20989 24.9357 1.84056 25.1108 1.49533L25.69 0.350005C25.8646 0.00420578 26.2641 -0.102778 26.5814 0.109387L27.7992 0.922765C28.0492 1.08969 28.1629 1.40106 28.1127 1.69232C28.7737 2.31459 29.8719 3.84138 29.5369 6.87249C29.9537 7.09945 30.1763 7.5969 30.0462 8.08212C29.9829 8.31344 28.8972 12.2217 26.5548 14.4818ZM10.6316 7.27083C9.8409 7.27083 9.1986 7.92648 9.1986 8.73635C9.1986 9.54565 9.8409 10.2018 10.6316 10.2018C11.4233 10.2018 12.0652 9.54565 12.0652 8.73635C12.0652 7.92639 11.4238 7.27083 10.6316 7.27083Z"
+                          fill="black" />
+                      </mask>
+                      <g mask="url(#mask0_482_1528)">
+                        <path d="M51.5149 -2.65564H18.486L15.0996 6.21222L18.486 19.5377H51.5149V-2.65564Z"
+                          fill="#1E1B1B" />
+                      </g>
+                    </svg>
+                    Diagnostics
+                  </span></li>
+                <li class="myb__about-item myb__about-item--text"><span>
+                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M32.9766 7.13672C31.6023 7.13672 30.4234 6.2872 29.9356 5.08594H27.0703V2.625H29.9356C30.4234 1.42373 31.6023 0.574219 32.9766 0.574219C34.7858 0.574219 36.2578 2.04619 36.2578 3.85547C36.2578 5.66475 34.7858 7.13672 32.9766 7.13672Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M38.7188 14.1094C38.1794 14.1094 37.6706 13.9778 37.2212 13.7462L34.1745 16.2852C33.9533 16.4694 33.6746 16.5703 33.3867 16.5703H27.0703V14.1094H32.9412L35.6126 11.8832C35.4997 11.5519 35.4375 11.1973 35.4375 10.8281C35.4375 9.01884 36.9095 7.54688 38.7188 7.54688C40.528 7.54688 42 9.01884 42 10.8281C42 12.6374 40.528 14.1094 38.7188 14.1094Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M38.7188 24.3633C37.3445 24.3633 36.1656 23.5138 35.6778 22.3125H27.0703V19.8516H35.6778C36.1656 18.6503 37.3445 17.8008 38.7188 17.8008C40.528 17.8008 42 19.2727 42 21.082C42 22.8913 40.528 24.3633 38.7188 24.3633Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M34.1745 25.879L37.2212 28.4179C37.6706 28.1863 38.1794 28.0547 38.7188 28.0547C40.528 28.0547 42 29.5267 42 31.3359C42 33.1452 40.528 34.6172 38.7188 34.6172C36.9095 34.6172 35.4375 33.1452 35.4375 31.3359C35.4375 30.9668 35.4997 30.6122 35.6126 30.2809L32.9412 28.0547H27.0703V25.5938H33.3867C33.6746 25.5938 33.9533 25.6946 34.1745 25.879Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M32.9766 35.0273C34.7858 35.0273 36.2578 36.4993 36.2578 38.3086C36.2578 40.1179 34.7858 41.5898 32.9766 41.5898C31.6023 41.5898 30.4234 40.7403 29.9356 39.5391H27.0703V37.0781H29.9356C30.4234 35.8769 31.6023 35.0273 32.9766 35.0273Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M12.3047 21.082C12.3047 16.3327 16.1686 12.4688 20.918 12.4688C22.2383 12.4688 23.4899 12.7678 24.6094 13.301V28.8631C23.4899 29.3963 22.2383 29.6953 20.918 29.6953C16.1686 29.6953 12.3047 25.8314 12.3047 21.082Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M23.3789 42H18.457C17.7775 42 17.2266 41.4491 17.2266 40.7695V39.1679C14.9176 38.6975 12.708 37.7821 10.7399 36.4806L9.60701 37.6134C9.12647 38.0939 8.34742 38.0939 7.86688 37.6134L4.38662 34.1331C3.90608 33.6527 3.90608 32.8735 4.38662 32.393L5.51939 31.2601C4.21788 29.292 3.3025 27.0824 2.83213 24.7734H1.23047C0.550922 24.7734 0 24.2225 0 23.543V18.6211C0 17.9415 0.550922 17.3906 1.23047 17.3906H2.83213C3.3025 15.0817 4.21788 12.8721 5.51939 10.9038L4.38654 9.77099C4.15579 9.54023 4.02618 9.22728 4.02618 8.90096C4.02618 8.57464 4.15579 8.26178 4.38654 8.03102L7.86688 4.55069C8.34742 4.07014 9.12647 4.07014 9.60701 4.55069L10.7399 5.68345C12.708 4.38195 14.9176 3.46664 17.2266 2.99619V1.39453C17.2266 0.714985 17.7775 0.164062 18.457 0.164062H23.3789C24.0585 0.164062 24.6094 0.714985 24.6094 1.39453V10.6413C23.4542 10.2316 22.2118 10.0078 20.918 10.0078C14.8116 10.0078 9.84375 14.9757 9.84375 21.082C9.84375 27.1884 14.8116 32.1562 20.918 32.1562C22.2118 32.1562 23.4542 31.9325 24.6094 31.5228V40.7695C24.6094 41.4491 24.0585 42 23.3789 42Z"
+                        fill="#1E1B1B" />
+                    </svg>
+                    Engine Repair
+                  </span></li>
+                <li class="myb__about-item myb__about-item--text"><span>
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M22.9999 7.66675C14.5452 7.66675 7.6665 14.5455 7.6665 23.0001C7.6665 31.4548 14.5452 38.3335 22.9999 38.3335C31.4545 38.3335 38.3332 31.4548 38.3332 23.0001C38.3332 14.5455 31.4545 7.66675 22.9999 7.66675ZM30.8444 13.3943C31.0166 13.2025 31.2599 13.0892 31.5182 13.0789C31.7409 13.0537 32.0274 13.1622 32.2145 13.34C34.2023 15.2221 35.5537 17.6179 36.1189 20.2683C36.2088 20.6913 36.0047 21.1218 35.621 21.3202C34.6832 21.805 33.5696 22.0399 32.5027 22.0399C31.112 22.0399 29.7943 21.6411 29.0306 20.8775C27.406 19.2538 28.0835 16.4565 30.8444 13.3943ZM15.1554 32.7556C14.9832 32.9474 14.7399 33.0616 14.4816 33.072C14.4704 33.0729 14.4573 33.0729 14.4441 33.0729C14.199 33.0729 13.9631 32.9792 13.7853 32.8108C11.7975 30.9287 10.4461 28.5329 9.88088 25.8816C9.79104 25.4586 9.99507 25.0281 10.3788 24.8297C12.5388 23.7151 15.6197 23.9228 16.9692 25.2723C18.592 26.8962 17.9144 29.6935 15.1554 32.7556ZM16.9691 20.8776C16.2054 21.6412 14.8877 22.04 13.497 22.04C12.4301 22.04 11.3183 21.805 10.3787 21.3203C9.99498 21.1219 9.79095 20.6914 9.88079 20.2684C10.4461 17.618 11.7974 15.2222 13.7852 13.3401C13.9724 13.1623 14.2476 13.0519 14.4815 13.079C14.7398 13.0894 14.9831 13.2026 15.1553 13.3944C17.9162 16.4565 18.5938 19.2538 16.9691 20.8776ZM27.084 35.7795C25.7569 36.2025 24.383 36.4168 22.9999 36.4168C21.6167 36.4168 20.2427 36.2026 18.9158 35.7795C18.4946 35.6447 18.2195 35.2404 18.2494 34.7997C18.489 31.3509 20.531 28.7501 22.9999 28.7501C25.4687 28.7501 27.5107 31.3509 27.7504 34.7996C27.7803 35.2404 27.5052 35.6447 27.084 35.7795ZM19.1665 23.0001C19.1665 20.886 20.8867 19.1667 22.9999 19.1667C25.1131 19.1667 26.8332 20.8859 26.8332 23.0001C26.8332 25.1143 25.1131 26.8335 22.9999 26.8335C20.8867 26.8335 19.1665 25.1142 19.1665 23.0001ZM27.7504 11.2764C27.5107 14.7242 25.4687 17.325 22.9999 17.325C20.531 17.325 18.489 14.7242 18.2494 11.2764C18.2195 10.8356 18.4927 10.4313 18.9139 10.2975C21.568 9.44952 24.4318 9.44952 27.0859 10.2975C27.5071 10.4313 27.7803 10.8356 27.7504 11.2764ZM36.1189 25.7291C35.5536 28.3804 34.2023 30.7763 32.2145 32.6583C32.0367 32.8268 31.8009 32.9204 31.5557 32.9204C31.5426 32.9204 31.5295 32.9204 31.5182 32.9195C31.2599 32.9092 31.0166 32.796 30.8444 32.6041C28.0836 29.542 27.406 26.7437 29.0306 25.12C30.3802 23.7695 33.4592 23.5645 35.621 24.6773C36.0047 24.8756 36.2088 25.3061 36.1189 25.7291Z"
+                        fill="black" />
+                      <path
+                        d="M23 0C10.317 0 0 10.318 0 23C0 35.682 10.317 46 23 46C35.683 46 46 35.682 46 23C46 10.318 35.683 0 23 0ZM23 40.25C13.4878 40.25 5.75 32.5113 5.75 23C5.75 13.4887 13.4878 5.75 23 5.75C32.5122 5.75 40.25 13.4887 40.25 23C40.25 32.5113 32.5122 40.25 23 40.25Z"
+                        fill="black" />
+                    </svg>
+                    Wheel Repair</span></li>
+                <li class="myb__about-item myb__about-item--text"><span>
+                    <svg width="34" height="46" viewBox="0 0 34 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M33.1719 18.1934C33.1719 17.8501 33.0409 17.5197 32.8056 17.2697L22.0243 5.8146C21.7696 5.54408 21.4146 5.39062 21.043 5.39062H7.56641C7.18152 5.39062 6.81495 5.55522 6.55917 5.8429L1.16854 11.9074C0.949324 12.1541 0.828125 12.4726 0.828125 12.8027V36.5664C0.828125 37.6009 1.21868 38.5459 1.86007 39.2617C1.21868 39.9775 0.828125 40.9226 0.828125 41.957C0.828125 44.1863 2.6418 46 4.87109 46H29.1289C31.3582 46 33.1719 44.1863 33.1719 41.957C33.1719 40.9226 32.7813 39.9775 32.1399 39.2617C32.7814 38.5459 33.1719 37.6009 33.1719 36.5664V18.1934ZM17 37.9137C14.7707 37.9137 12.957 36.1 12.957 33.8707C12.957 33.3157 13.1156 32.3044 14.4866 29.941C15.1791 28.7471 15.8624 27.7558 15.8911 27.7142C16.1428 27.35 16.5573 27.1325 17 27.1325C17.4428 27.1325 17.8572 27.3499 18.1089 27.7142C18.1376 27.7558 18.8209 28.7471 19.5134 29.941C20.8844 32.3045 21.043 33.3157 21.043 33.8707C21.043 36.1 19.2293 37.9137 17 37.9137ZM26.9347 22.0143C26.4135 22.5052 25.7502 22.7474 25.0869 22.7474C24.3697 22.7474 23.655 22.4631 23.1246 21.8998L16.9351 15.3234C15.9139 14.239 15.9665 12.5333 17.0496 11.5134C18.1354 10.4934 19.8423 10.5448 20.8596 11.6278L27.0491 18.2042C28.0704 19.2887 28.0177 20.9943 26.9347 22.0143Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M15.6523 33.8724C15.6523 34.614 16.2569 35.2186 17 35.2186C17.7427 35.2186 18.347 34.6145 18.3477 33.872C18.3362 33.4585 17.776 32.2846 17.0003 30.978C16.2239 32.286 15.6633 33.4604 15.6523 33.8724Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M15.6523 0H7.56641C6.82214 0 6.21875 0.603391 6.21875 1.34766V2.69531H17V1.34766C17 0.603391 16.3966 0 15.6523 0Z"
+                        fill="#1E1B1B" />
+                    </svg>
+                    Oil Filter
+                  </span>
+                </li>
+                <li class="myb__about-item myb__about-item--text"><span>
+                    <svg width="55" height="39" viewBox="0 0 55 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M53.8345 11.8573C53.5697 11.5343 53.1746 11.3457 52.7601 11.3457H47.4905C46.19 7.91585 44.4959 4.55528 42.5702 3.28675C35.9087 -1.09558 18.2394 -1.09558 11.5778 3.28675C9.65078 4.55666 7.96357 7.92139 6.65622 11.3457H1.38661C0.967927 11.3457 0.574197 11.5343 0.312172 11.8573C0.0487611 12.1789 -0.0566033 12.6046 0.0293518 13.0135L0.80988 16.7956C0.942972 17.4402 1.51139 17.9005 2.16714 17.9005H3.7282C2.22121 19.639 1.49059 21.8281 1.48089 24.0186C1.47118 26.7248 2.49848 29.1703 4.37702 30.9005C4.39782 30.9186 4.41861 30.931 4.43802 30.9491V36.2408C4.43802 37.3874 5.36966 38.3204 6.51758 38.3204H11.3782C12.5261 38.3204 13.4578 37.3874 13.4578 36.2408V34.1141H40.6875V36.2408C40.6875 37.3874 41.6192 38.3204 42.7671 38.3204H47.6277C48.7729 38.3204 49.7073 37.3874 49.7073 36.2408V31.053C51.7009 29.2272 52.6533 26.7151 52.6658 24.2071C52.6741 21.9418 51.9102 19.6723 50.3145 17.8977H51.9795C52.6381 17.8977 53.2065 17.4375 53.3368 16.7914L54.1187 13.0108C54.1991 12.6046 54.0979 12.1817 53.8345 11.8573ZM13.8612 6.75961C19.171 3.26456 34.9743 3.26456 40.2813 6.75961C41.3128 7.43616 42.6395 10.1715 43.8554 13.521H10.2899C11.503 10.1729 12.8297 7.43893 13.8612 6.75961ZM7.64193 24.5399C7.64193 22.2801 9.47472 20.4501 11.7331 20.4501C13.9943 20.4501 15.8243 22.2801 15.8243 24.5399C15.8243 26.7996 13.9943 28.631 11.7331 28.631C9.47472 28.631 7.64193 26.7996 7.64193 24.5399ZM42.4663 28.631C40.2078 28.631 38.3751 26.7996 38.3751 24.5399C38.3751 22.2801 40.2078 20.4501 42.4663 20.4501C44.7274 20.4501 46.5574 22.2801 46.5574 24.5399C46.5574 26.7996 44.7247 28.631 42.4663 28.631Z"
+                        fill="#1E1B1B" />
+                    </svg>
+                    Body Work</span></li>
+                <li class="myb__about-item myb__about-item--text"><span>
+                    <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M38.5 2.58322C38.5 1.57077 37.6792 0.75 36.6668 0.75H29.3332C28.3208 0.75 27.5 1.57077 27.5 2.58322V6.25H38.5V2.58322Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M16.5 2.58322C16.5 1.57077 15.6792 0.75 14.6668 0.75H7.33322C6.32077 0.75 5.5 1.57077 5.5 2.58322V6.25H16.5V2.58322Z"
+                        fill="#1E1B1B" />
+                      <path
+                        d="M0 8.08325V35.5833C0 36.5957 0.82077 37.4168 1.83322 37.4168H5.5V39.25H9.16678V37.4168H34.8332V39.25H38.5V37.4168H42.1668C43.1792 37.4168 44 36.5957 44 35.5833V8.08325H0ZM14.6668 33.75L18.3332 22.75H12.8332L25.6668 11.75L22 22.75H27.5L14.6668 33.75Z"
+                        fill="#1E1B1B" />
+                    </svg>
+                    Batteries</span></li>
+                <li class="myb__about-item myb__about-item--text"><span>
+                    <svg width="38" height="46" viewBox="0 0 38 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M22.1472 8.08594H15.8528C13.8933 10.3195 11.4334 12.04 8.66797 13.1154V21.3604C8.66797 28.3331 12.7046 34.5863 19 37.4487C25.2954 34.5863 29.332 28.3331 29.332 21.3604V13.1163C26.5657 12.0409 24.1067 10.3204 22.1472 8.08594ZM26.2423 19.6785L17.8563 28.0637C17.593 28.3269 17.248 28.4589 16.9039 28.4589C16.5589 28.4589 16.2139 28.3268 15.9507 28.0637L11.7577 23.8716C11.2321 23.3451 11.2321 22.4916 11.7577 21.9651C12.2842 21.4395 13.1377 21.4395 13.6642 21.9651L16.9039 25.2049L24.3367 17.773C24.8623 17.2465 25.7158 17.2465 26.2423 17.773C26.7679 18.2994 26.7679 19.152 26.2423 19.6785ZM36.0622 6.28906C32.1774 6.28906 28.6393 4.15438 26.8263 0.71875C26.5935 0.276719 26.1345 0 25.6349 0H12.3649C11.8654 0 11.4063 0.276719 11.1727 0.71875C9.36066 4.15438 5.82262 6.28906 1.92969 6.28906C1.18578 6.28906 0.582031 6.89281 0.582031 7.63672V21.3604C0.582031 26.8777 2.30613 32.1461 5.56746 36.5961C8.82879 41.046 13.3327 44.2758 18.5939 45.9371C18.726 45.9793 18.8634 46 19 46C19.1366 46 19.274 45.9793 19.4061 45.9371C24.6674 44.2759 29.1712 41.0461 32.4325 36.5961C35.6939 32.146 37.418 26.8777 37.418 21.3604V7.63672C37.418 6.89281 36.8061 6.28906 36.0622 6.28906ZM32.0273 21.2993C32.0273 29.5523 27.1174 36.933 19.5184 40.1018C19.3522 40.171 19.1761 40.2051 19 40.2051C18.8239 40.2051 18.6469 40.1709 18.4816 40.1018C10.8826 36.933 5.97266 29.5522 5.97266 21.2993V12.1064C5.97266 11.5243 6.34641 11.0077 6.89984 10.8262C9.75957 9.88551 12.2788 8.15602 14.1844 5.82457C14.4404 5.51102 14.8241 5.32953 15.2284 5.32953H22.7716C23.1849 5.32953 23.6719 5.64937 23.8155 5.82457C25.7211 8.15602 28.2403 9.88551 31.1001 10.8262C31.4946 10.9555 31.7964 11.2547 31.9383 11.6276C31.9402 11.6312 31.941 11.6357 31.9428 11.6393C31.977 11.7318 32.0012 11.8288 32.0148 11.9286C32.0157 11.9384 32.0174 11.9492 32.0184 11.9591C32.0238 12.0076 32.0273 12.0561 32.0273 12.1064V21.2993Z"
+                        fill="#1E1B1B" />
+                    </svg>
+                    Insurance Claim</span></li>
+                <li class="myb__about-item myb__about-item--text"><span>
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M45.8549 20.4463C45.7822 19.7998 45.0281 19.3134 44.376 19.3134C42.2685 19.3134 40.3981 18.0764 39.6137 16.1619C38.813 14.2014 39.3296 11.9154 40.8998 10.475C41.3944 10.0228 41.4547 9.26565 41.0401 8.74006C39.9611 7.37021 38.7352 6.13264 37.3964 5.06019C36.8726 4.64004 36.1029 4.69853 35.6484 5.20163C34.2775 6.71989 31.8149 7.28407 29.9119 6.49013C27.9323 5.65719 26.6828 3.65055 26.8056 1.4967C26.846 0.819725 26.351 0.231479 25.6764 0.1529C23.9582 -0.0460337 22.2249 -0.0518028 20.5018 0.139372C19.8357 0.212978 19.3412 0.787299 19.3633 1.45572C19.4379 3.58848 18.1743 5.55971 16.2138 6.36281C14.3336 7.13089 11.8882 6.57089 10.5201 5.06596C10.0679 4.57022 9.31176 4.50935 8.78439 4.92054C7.40618 6.00214 6.1527 7.2405 5.06374 8.59922C4.63941 9.12739 4.70208 9.89288 5.2008 10.3467C6.80202 11.7967 7.31825 14.1023 6.48691 16.0857C5.69316 17.9765 3.72989 19.1946 1.48254 19.1946C0.753246 19.1711 0.234228 19.6611 0.15366 20.3244C-0.0484564 22.0517 -0.0506446 23.8127 0.143912 25.5541C0.216523 26.2034 0.992961 26.6857 1.65223 26.6857C3.65549 26.6347 5.57758 27.8741 6.38505 29.837C7.18855 31.7975 6.67132 34.0824 5.09855 35.5249C4.60659 35.977 4.54373 36.7324 4.9591 37.2574C6.02717 38.6187 7.2542 39.857 8.597 40.9386C9.12417 41.3632 9.89086 41.3037 10.3478 40.8C11.724 39.2781 14.1862 38.715 16.0815 39.5105C18.0668 40.3413 19.3157 42.3477 19.1938 44.5021C19.1538 45.1791 19.6499 45.7692 20.3221 45.8459C21.2014 45.9488 22.0853 45.9997 22.9719 45.9997C23.8134 45.9997 24.6551 45.9538 25.4968 45.8601C26.1636 45.7865 26.6574 45.2115 26.6349 44.5429C26.5579 42.4112 27.8243 40.4397 29.7824 39.6382C31.6751 38.8652 34.1096 39.4309 35.4785 40.9337C35.9331 41.4284 36.6846 41.4885 37.2142 41.0789C38.59 40.0001 39.8411 38.7623 40.9348 37.4C41.3596 36.8728 41.2993 36.1064 40.7978 35.6518C39.197 34.2028 38.6779 31.8961 39.5093 29.9147C40.2907 28.0493 42.181 26.7969 44.2141 26.7969L44.4985 26.8044C45.1586 26.8579 45.7651 26.3497 45.8449 25.6763C46.048 23.9473 46.0502 22.1884 45.8549 20.4463ZM22.9996 36.2595C15.6762 36.2595 9.73987 30.3232 9.73987 23C9.73987 15.6769 15.6764 9.7405 22.9996 9.7405C30.3227 9.7405 36.2593 15.6769 36.2593 23C36.2593 25.4857 35.574 27.8106 34.3838 29.7988L28.5777 23.9925C28.998 23.0014 29.22 21.927 29.2198 20.8181C29.2198 18.6468 28.3742 16.6055 26.8386 15.0703C25.3034 13.5352 23.2622 12.6897 21.0912 12.6897C20.3667 12.6897 19.6456 12.786 18.9479 12.976C18.6423 13.0593 18.3925 13.3112 18.3111 13.6173C18.228 13.9304 18.3217 14.2513 18.5664 14.4962C18.5664 14.4962 21.4328 17.3847 22.3918 18.3436C22.4923 18.444 22.4921 18.6838 22.478 18.7701L22.469 18.8332C22.3723 19.8875 22.1859 21.1531 22.0322 21.6395C22.0115 21.66 21.992 21.6773 21.9709 21.6984C21.9488 21.7205 21.9285 21.7418 21.9072 21.7636C21.4145 21.9218 20.1294 22.1104 19.0583 22.2063L19.0585 22.2005L19.0104 22.2126C19.0018 22.2136 18.9859 22.2148 18.9648 22.2148C18.849 22.2148 18.6787 22.1824 18.524 22.0278C17.5257 21.0296 14.7717 18.2952 14.7717 18.2952C14.5246 18.049 14.2712 17.9972 14.1023 17.9972C13.7086 17.9972 13.3561 18.2817 13.2451 18.6897C12.4869 21.4953 13.2906 24.5131 15.343 26.5657C16.8786 28.1011 18.9201 28.9465 21.0914 28.9465C22.2003 28.9465 23.2747 28.7247 24.2656 28.3044L30.1347 34.1735C28.0742 35.492 25.6273 36.2595 22.9996 36.2595Z"
+                        fill="#1E1B1B" />
+                    </svg>
+                    Custom Service</span></li>
+              </ul>
+              <div class="about__right-arrow" href="#">Learn about services
+                <svg xmlns="http://www.w3.org/2000/svg" width="53" height="16" viewBox="0 0 53 16" fill="none">
+                  <path
+                    d="M52.7071 8.70711C53.0976 8.31658 53.0976 7.68342 52.7071 7.29289L46.3431 0.928932C45.9526 0.538408 45.3195 0.538408 44.9289 0.928932C44.5384 1.31946 44.5384 1.95262 44.9289 2.34315L50.5858 8L44.9289 13.6569C44.5384 14.0474 44.5384 14.6805 44.9289 15.0711C45.3195 15.4616 45.9526 15.4616 46.3431 15.0711L52.7071 8.70711ZM0 9H52V7H0V9Z"
+                    fill="#1E1B1B" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__follow follow">
+          <div class="container">
+            <div class="follow__inner">
+              <div class="follow__heading heading">
+                <h2 class="follow__title">We follow a clear process to help you out.</h2>
+                <p class="follow__text">Through True Rich Attended does no end it his mother since real had half every
+                  him case in packages enquire</p>
+                <button class="follow__text-btn button follow__text-btn--fol">Learn more</button>
+              </div>
+              <ul class="follow__list">
+                <li class="follow__list-item">
+                  <div class="follow__list-content">
+                    <div class="follow__circle">
+                      <span></span>
+                      01
+                    </div>
+                    <div class="follow__list-container">
+                      <div class="follow__list-title">Get a Quote</div>
+                      <p class="follow__list-text">Through True Rich Attended does no end it his mother since real had
+                        half every.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="follow__list-item">
+                  <div class="follow__list-content">
+                    <div class="follow__circle">
+                      <span></span>
+                      02
+                    </div>
+                    <div class="follow__list-container">
+                      <div class="follow__list-title">Book an Appointment</div>
+                      <p class="follow__list-text">Through True Rich Attended does no end it his mother since real had
+                        half every.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="follow__list-item">
+                  <div class="follow__list-content">
+                    <div class="follow__circle">03</div>
+                    <div class="follow__list-container">
+                      <div class="follow__list-title">Get your Service Done</div>
+                      <p class="follow__list-text follow__list-text--error">Through True Rich Attended does no end it
+                        his mother since real had
+                        half every.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="main__gta gta">
+          <div class="container__gta">
+            <div class="gta__inner">
+              <div class="gta__img">
+                <div class="image1">
+                  <img src="images/GTA/Image 1.jpg" alt="">
+                  <div class="gta__image-container">
+                    <span>
+                      <h3 class="gta__img-title">Get in touch with us for your service related query</h3>
+                      <button class="gta__img-btn button">Contact Us</button>
+                    </span>
+                  </div>
+                </div>
+                <div class="image2">
+                  <img src="images/GTA/ovGrEUgrkyE.jpg" alt="">
+                </div>
+              </div>
+              <div class="container">
+                <div class="gta__list">
+                  <ul class="gta__list-item">
+                    <li class="gta__list-items">
+                      <h2 class="gta__list-numbers">20+</h2>
+                      <p class="gta__list-text">Proffesional</p>
+                    </li>
+                    <li class="gta__list-items">
+                      <h2 class="gta__list-numbers">10+</h2>
+                      <p class="gta__list-text">Years Eperience</p>
+                    </li>
+                    <li class="gta__list-items">
+                      <h2 class="gta__list-numbers">12K+</h2>
+                      <p class="gta__list-text">Service Closed</p>
+                    </li>
+                    <li class="gta__list-items">
+                      <h2 class="gta__list-numbers">100%</h2>
+                      <p class="gta__list-text">Customer Satisfaction</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__brands brands">
+          <div class="container">
+            <div class="brands__inner">
+              <div class="brands__heading">
+                <h2 class="brands__title">Brands we Serve</h2>
+              </div>
+              <ul class="brands__grid">
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-8 1.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-7 1.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-6.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-3.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-1 1.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-8 1.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-7 1.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-6.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-3.svg" alt="">
+                  </a>
+                </li>
+                <li class="brands__grid-item">
+                  <a class="brands__grid-link" href="#">
+                    <img src="images/logo/logo-1 1.svg" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="main__blog blog" id="blog">
+          <div class="container">
+            <div class="blog__inner">
+              <h2 class="heading__title">Our blog</h2>
+            </div>
+            <ul class="blog__filter-box">
+              <li class="blog__filter-item">
+                <button class="blog__filter-btn blog__filter-btn--active" type="button" data-filter="all">Latest</button>
+              </li>
+              <li class="blog__filter-item">
+                <button class="blog__filter-btn" type="button" data-filter=".blog__list-item--popular">Popular</button>
+              </li>
+              <li class="blog__filter-item">
+                <button class="blog__filter-btn" type="button" data-filter=".blog__list-item--favorites">Favorites</button>
+              </li>
+            </ul>
+            <ul class="blog__list">
+              <li class="mix blog__list-item blog__list-item--popular" data-order="1">
+                <a class="blog__list-link" href="#">
+                  <div class="blog__image-box">
+                    <img src="images/Our blog/1.jpg" alt="">
+                  </div>
+                  <div class="blog__list-content">
+                    <div class="blog__posted-text">Posted on October 6th 2021</div>
+                    <div class="blog__title-text">5 Genius Car Accessories You Should Never Drive Without</div>
+                    <div class="blog__list-text">We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models</div>
+                  </div>
+                </a>
+              </li>
+              <li class="mix blog__list-item blog__list-item--popular" data-order="2">
+                <a class="blog__list-link" href="#">
+                  <div class="blog__image-box">
+                    <img src="images/Our blog/2.jpg" alt="">
+                  </div>
+                  <div class="blog__list-content">
+                    <div class="blog__posted-text">Posted on October 6th 2021</div>
+                    <div class="blog__title-text">5 Genius Car Accessories You Should Never Drive Without</div>
+                    <div class="blog__list-text">We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models</div>
+                  </div>
+                </a>
+              </li>
+              <li class="mix blog__list-item blog__list-item--popular" data-order="3">
+                <a class="blog__list-link" href="#">
+                  <div class="blog__image-box">
+                    <img src="images/Our blog/3.jpg" alt="">
+                  </div>
+                  <div class="blog__list-content">
+                    <div class="blog__posted-text">Posted on October 6th 2021</div>
+                    <div class="blog__title-text">We provide blow straight past it with the wheels skidding</div>
+                    <div class="blog__list-text">We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models</div>
+                  </div>
+                </a>
+              </li>
+              <li class="mix blog__list-item blog__list-item--favorites" data-order="4">
+                <a class="blog__list-link" href="#">
+                  <div class="blog__image-box">
+                    <img src="images/Our blog/4.jpg" alt="">
+                  </div>
+                  <div class="blog__list-content">
+                    <div class="blog__posted-text">Posted on October 6th 2021</div>
+                    <div class="blog__title-text">We provide blow straight past it with the wheels skidding</div>
+                    <div class="blog__list-text">We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models</div>
+                  </div>
+                </a>
+              </li>
+              <li class="mix blog__list-item blog__list-item--favorites" data-order="5">
+                <a class="blog__list-link" href="#">
+                  <div class="blog__image-box">
+                    <img src="images/Our blog/5.jpg" alt="">
+                  </div>
+                  <div class="blog__list-content">
+                    <div class="blog__posted-text">Posted on October 6th 2021</div>
+                    <div class="blog__title-text">5 Genius Car Accessories You Should Never Drive Without</div>
+                    <div class="blog__list-text">We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models</div>
+                  </div>
+                </a>
+              </li>
+              <li class="mix blog__list-item blog__list-item--favorites" data-order="6">
+                <a class="blog__list-link" href="#">
+                  <div class="blog__image-box">
+                    <img src="images/Our blog/6.jpg" alt="">
+                  </div>
+                  <div class="blog__list-content">
+                    <div class="blog__posted-text">Posted on October 6th 2021</div>
+                    <div class="blog__title-text">5 Genius Car Accessories You Should Never Drive Without</div>
+                    <div class="blog__list-text">We provide a full range of front end mechanical repairs for all makes and models We provide a full range of front end mechanical repairs for all makes and models</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="main__reviews reviews">
+          <div class="container">
+            <div class="reviews__inner">
+              <div class="reviews__heading">
+                <h2 class="reviews__title">Our customers say the nicest things about our service</h2>
+              </div>
+              <div class="reviews__content">
+                <ul class="reviews__item">
+                  <li class="reviews__items">
+                    <div class="reviews__user">
+                      <div class="reviews__avatar">
+                        <img src="images/Avatar-Jonathan.svg" alt="">
+                      </div>
+                      <div class="reviews__info-box">
+                        <div class="reviews__name">Jonathan Vallem</div>
+                        <div class="reviews__city">New york</div>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      I have got my car repaired at Finsweet many times before, they are good
+                      at what they do. Not only did they repair my car in a short comprehensive look on all the working
+                    </div>
+                  </li>
+                  <li class="reviews__items">
+                    <div class="reviews__user">
+                      <div class="reviews__avatar">
+                        <img src="images/Avatar-Smith.svg" alt="">
+                      </div>
+                      <div class="reviews__info-box">
+                        <div class="reviews__name">Smith Johnson</div>
+                        <div class="reviews__city">New york</div>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      I have got my car repaired at Finsweet many times before, they are good
+                      at what they do. Not only did they repair my car in a short comprehensive look on all the working
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__asked asked">
+          <div class="container">
+            <div class="asked__inner">
+              <div class="asked__heading">
+                <h2 class="asked__title">Frequently Asked Questions</h2>
+              </div>
+              <div class="asked__prog-con">
+                <ul class="asked__prog">
+                  <li class="asked__prog-item">
+                    <a class="asked__prog-link" href="#">
+                      <div class="asked__prog-head">
+                        <div class="asked__prog-bg"></div>
+                        <span>How long should a car repair take?</span>
+                      </div>
+                      <p class="asked__prog-text" style="display: none;">
+                        I have got my car repaired at Finsweet many times before, they are good at what they do. Not
+                        only
+                        did they repair my car I have got my car repaired at Finsweet I have got my car repaired at
+                        Finsweet
+                      </p>
+                    </a>
+                  </li>
+                  <li class="asked__prog-item">
+                    <a class="asked__prog-link" href="#">
+                      <div class="asked__prog-head">
+                        <div class="asked__prog-bg"></div>
+                        <span>How do I schedule my car's appointment ?</span>
+                      </div>
+                      <p class="asked__prog-text" style="display: none;">
+                        I have got my car repaired at Finsweet many times before, they are good at what they do. Not
+                        only
+                        did they repair my car I have got my car repaired at Finsweet I have got my car repaired at
+                        Finsweet
+                      </p>
+                    </a>
+                  </li>
+                  <li class="asked__prog-item">
+                    <a class="asked__prog-link" href="#">
+                      <div class="asked__prog-head">
+                        <div class="asked__prog-bg"></div>
+                        <span>What are the repair services provided?</span>
+                      </div>
+                      <p class="asked__prog-text" style="display: none;">
+                        I have got my car repaired at Finsweet many times before, they are good at what they do. Not
+                        only
+                        did they repair my car I have got my car repaired at Finsweet I have got my car repaired at
+                        Finsweet
+                      </p>
+                    </a>
+                  </li>
+                  <li class="asked__prog-item">
+                    <a class="asked__prog-link" href="#">
+                      <div class="asked__prog-head">
+                        <div class="asked__prog-bg"></div>
+                        <span>How do I find auto body shops near me?</span>
+                      </div>
+                      <p class="asked__prog-text" style="display: none;">
+                        I have got my car repaired at Finsweet many times before, they are good at what they do. Not
+                        only
+                        did they repair my car I have got my car repaired at Finsweet I have got my car repaired at
+                        Finsweet
+                      </p>
+                    </a>
+                  </li>
+                  <li class="asked__prog-item">
+                    <a class="asked__prog-link" href="#">
+                      <div class="asked__prog-head">
+                        <div class="asked__prog-bg"></div>
+                        <span>Genuine spare parts during car repair?</span>
+                      </div>
+                      <p class="asked__prog-text" style="display: none;">
+                        I have got my car repaired at Finsweet many times before, they are good at what they do. Not
+                        only
+                        did they repair my car I have got my car repaired at Finsweet I have got my car repaired at
+                        Finsweet
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__experts experts" id="experts">
+          <div class="container">
+            <div class="experts__heading">
+              <h1 class="experts__title">Get in touch with our experts</h1>
+            </div>
+            <div class="experts__inner">
+              <form class="experts__form">
+                <input class="experts__form-input" type="text" placeholder="Your full Name" required>
+                <input class="experts__form-input" type="email" placeholder="Your Email" required>
+                <input class="experts__form-input" type="text" placeholder="Select service type" required>
+                <input class="experts__form-input" type="text" placeholder="Message">
+                <button type="submit" class="experts__form-btn button">Send message</button>
+              </form>
+              <div class="experts__content">
+                <ul class="experts__list">
+                  <li class="experts__item">
+                    <span>Address</span>
+                    <p class="experts__item-text">NH 234 Public Square San Francisco 65368</p>
+                  </li>
+                  <li class="experts__item">
+                    <span>Contact Details</span>
+                    <a class="experts__item-text experts__item-text--hov" href="tel:18002652452">
+                      1800 265 24 52
+                    </a>
+                    <a class="experts__item-text experts__item-text--hov" href="mailto:Finsweet@gmail.com">
+                      Finsweet@gmail.com
+                    </a>
+                  </li>
+                  <li class="experts__item">
+                    <span>Opening Hours</span>
+                    <p class="experts__item-text">Monday to Friday 9:00 AM to 10:00 AM</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__maps maps" id="maps">
+          <div class="maps__inner">
+            <div class="maps__map">
+              <div class="maps__fr-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.4165600179294!2d-74.19389212390413!3d40.68682257139733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c252efba1206e1%3A0xc93884f21634baeb!2sAvis%20Car%20Rental!5e0!3m2!1sru!2s!4v1705792318029!5m2!1sru!2s"
+                  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+              <img class="maps__image-box" src="images/body-btn-bottom.jpg" alt="">
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="container">
+            <div class="footer__top-inner">
+              <div class="footer__socials">
+                <div class="footer__top-heading">
+                  <h3 class="footer__title">Get in touch with us for your service</h3>
+                </div>
+                <ul class="footer__socials-list">
+                  <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="#">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_482_1265)">
+                          <path
+                            d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_482_1265">
+                            <rect width="24" height="24" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="#">
+                      <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_482_1267)">
+                          <path
+                            d="M8.21666 21.7497C17.271 21.7497 22.2248 14.2465 22.2248 7.74162C22.2248 7.53068 22.2201 7.31505 22.2107 7.10412C23.1744 6.40722 24.006 5.54401 24.6665 4.55505C23.769 4.95436 22.8161 5.21514 21.8404 5.32849C22.8678 4.71266 23.637 3.74523 24.0056 2.60552C23.0391 3.17831 21.9821 3.58237 20.8799 3.80037C20.1373 3.01132 19.1555 2.48887 18.0862 2.31381C17.0169 2.13874 15.9197 2.32081 14.9642 2.83185C14.0088 3.3429 13.2483 4.15446 12.8004 5.14107C12.3524 6.12767 12.2419 7.23437 12.486 8.29005C10.529 8.19185 8.61444 7.68346 6.86649 6.79785C5.11853 5.91225 3.5762 4.66919 2.33947 3.14927C1.7109 4.233 1.51856 5.5154 1.80153 6.73585C2.08451 7.95629 2.82157 9.0232 3.86291 9.71974C3.08113 9.69492 2.31648 9.48444 1.63213 9.10568V9.16662C1.63143 10.3039 2.0246 11.4063 2.74481 12.2865C3.46503 13.1667 4.46783 13.7703 5.58275 13.9947C4.85856 14.1929 4.09849 14.2218 3.36135 14.0791C3.67596 15.0572 4.28808 15.9126 5.11227 16.5261C5.93647 17.1395 6.93162 17.4804 7.95885 17.501C6.21493 18.8709 4.06068 19.6139 1.84307 19.6104C1.44979 19.6098 1.0569 19.5857 0.666504 19.5382C2.91936 20.9835 5.54004 21.7511 8.21666 21.7497Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_482_1267">
+                            <rect width="24" height="24" fill="white" transform="translate(0.666504)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="#">
+                      <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_482_1269)">
+                          <path
+                            d="M12.3335 2.16094C15.5397 2.16094 15.9194 2.175 17.1804 2.23125C18.3522 2.28281 18.9851 2.47969 19.4069 2.64375C19.9647 2.85938 20.3679 3.12188 20.7851 3.53906C21.2069 3.96094 21.4647 4.35938 21.6804 4.91719C21.8444 5.33906 22.0413 5.97656 22.0929 7.14375C22.1491 8.40937 22.1632 8.78906 22.1632 11.9906C22.1632 15.1969 22.1491 15.5766 22.0929 16.8375C22.0413 18.0094 21.8444 18.6422 21.6804 19.0641C21.4647 19.6219 21.2022 20.025 20.7851 20.4422C20.3632 20.8641 19.9647 21.1219 19.4069 21.3375C18.9851 21.5016 18.3476 21.6984 17.1804 21.75C15.9147 21.8062 15.5351 21.8203 12.3335 21.8203C9.12725 21.8203 8.74756 21.8062 7.48662 21.75C6.31475 21.6984 5.68193 21.5016 5.26006 21.3375C4.70225 21.1219 4.29912 20.8594 3.88193 20.4422C3.46006 20.0203 3.20225 19.6219 2.98662 19.0641C2.82256 18.6422 2.62568 18.0047 2.57412 16.8375C2.51787 15.5719 2.50381 15.1922 2.50381 11.9906C2.50381 8.78438 2.51787 8.40469 2.57412 7.14375C2.62568 5.97187 2.82256 5.33906 2.98662 4.91719C3.20225 4.35938 3.46475 3.95625 3.88193 3.53906C4.30381 3.11719 4.70225 2.85938 5.26006 2.64375C5.68193 2.47969 6.31943 2.28281 7.48662 2.23125C8.74756 2.175 9.12725 2.16094 12.3335 2.16094ZM12.3335 0C9.07568 0 8.66787 0.0140625 7.38818 0.0703125C6.11318 0.126563 5.23662 0.332812 4.47725 0.628125C3.68506 0.9375 3.01475 1.34531 2.34912 2.01562C1.67881 2.68125 1.271 3.35156 0.961621 4.13906C0.666309 4.90313 0.460059 5.775 0.403809 7.05C0.347559 8.33437 0.333496 8.74219 0.333496 12C0.333496 15.2578 0.347559 15.6656 0.403809 16.9453C0.460059 18.2203 0.666309 19.0969 0.961621 19.8563C1.271 20.6484 1.67881 21.3188 2.34912 21.9844C3.01475 22.65 3.68506 23.0625 4.47256 23.3672C5.23662 23.6625 6.1085 23.8687 7.3835 23.925C8.66318 23.9812 9.071 23.9953 12.3288 23.9953C15.5866 23.9953 15.9944 23.9812 17.2741 23.925C18.5491 23.8687 19.4257 23.6625 20.1851 23.3672C20.9726 23.0625 21.6429 22.65 22.3085 21.9844C22.9741 21.3188 23.3866 20.6484 23.6913 19.8609C23.9866 19.0969 24.1929 18.225 24.2491 16.95C24.3054 15.6703 24.3194 15.2625 24.3194 12.0047C24.3194 8.74688 24.3054 8.33906 24.2491 7.05938C24.1929 5.78438 23.9866 4.90781 23.6913 4.14844C23.396 3.35156 22.9882 2.68125 22.3179 2.01562C21.6522 1.35 20.9819 0.9375 20.1944 0.632812C19.4304 0.3375 18.5585 0.13125 17.2835 0.075C15.9991 0.0140625 15.5913 0 12.3335 0Z"
+                            fill="white" />
+                          <path
+                            d="M12.3335 5.83594C8.93037 5.83594 6.16943 8.59688 6.16943 12C6.16943 15.4031 8.93037 18.1641 12.3335 18.1641C15.7366 18.1641 18.4976 15.4031 18.4976 12C18.4976 8.59688 15.7366 5.83594 12.3335 5.83594ZM12.3335 15.9984C10.1257 15.9984 8.33506 14.2078 8.33506 12C8.33506 9.79219 10.1257 8.00156 12.3335 8.00156C14.5413 8.00156 16.3319 9.79219 16.3319 12C16.3319 14.2078 14.5413 15.9984 12.3335 15.9984Z"
+                            fill="white" />
+                          <path
+                            d="M20.1804 5.59238C20.1804 6.38926 19.5335 7.03145 18.7413 7.03145C17.9444 7.03145 17.3022 6.38457 17.3022 5.59238C17.3022 4.79551 17.9491 4.15332 18.7413 4.15332C19.5335 4.15332 20.1804 4.8002 20.1804 5.59238Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_482_1269">
+                            <rect width="24" height="24" fill="white" transform="translate(0.333496)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="#">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_482_1274)">
+                          <path
+                            d="M22.2234 0H1.77187C0.792187 0 0 0.773438 0 1.72969V22.2656C0 23.2219 0.792187 24 1.77187 24H22.2234C23.2031 24 24 23.2219 24 22.2703V1.72969C24 0.773438 23.2031 0 22.2234 0ZM7.12031 20.4516H3.55781V8.99531H7.12031V20.4516ZM5.33906 7.43438C4.19531 7.43438 3.27188 6.51094 3.27188 5.37187C3.27188 4.23281 4.19531 3.30937 5.33906 3.30937C6.47813 3.30937 7.40156 4.23281 7.40156 5.37187C7.40156 6.50625 6.47813 7.43438 5.33906 7.43438ZM20.4516 20.4516H16.8937V14.8828C16.8937 13.5562 16.8703 11.8453 15.0422 11.8453C13.1906 11.8453 12.9094 13.2937 12.9094 14.7891V20.4516H9.35625V8.99531H12.7687V10.5609H12.8156C13.2891 9.66094 14.4516 8.70938 16.1813 8.70938C19.7859 8.70938 20.4516 11.0813 20.4516 14.1656V20.4516Z"
+                            fill="white" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_482_1274">
+                            <rect width="24" height="24" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__top-content">
+                <ul class="footer__content-list">
+                  <li class="footer__content-item">
+                    <div class="footer__content-text">Help line Number</div>
+                    <a class="footer__content-phone" href="tel:18002652452">1800 265 24 52</a>
+                  </li>
+                  <li class="footer__content-item">
+                    <div class="footer__content-text">Address</div>
+                    <a class="footer__content-address">NH 234 Public Square San Francisco 65368</a>
+                  </li>
+                  <li class="footer__content-item">
+                    <div class="footer__content-text">We are open</div>
+                    <div class="footer__content-time">Monday to Friday 9:00 AM to  10:00  AM</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="container">
+            <div class="footer__bottom-inner">
+              <a class="footer__logo logo" href="#">
+                <img src="images/footer-logo.svg" alt="">
+              </a>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">Home</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#about">About us</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#maps">Services</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#experts">Contact us</a>
+                </li>
+              </ul>
+              <div class="footer__cop">@ Copyright Finsweet 2021</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>

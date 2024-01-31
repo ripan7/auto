@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Lato;
+  font-weight: 900;
+  font-style: normal;
+  src: local("Lato"),
+    url("../createx/fonts/Lato-Black.woff2") format("woff2"),
+    url("../createx/fonts/Lato-Black.woff2") format("woff"),
+    url("../createx/fonts/Lato-Black.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: Lato;
+  font-weight: 700;
+  font-style: normal;
+  src: local("Lato"),
+    url("../createx/fonts/Lato-Bold.woff2") format("woff2"),
+    url("../createx/fonts/Lato-Bold.woff2") format("woff"),
+    url("../createx/fonts/Lato-Bold.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Lato"),
+    url("../createx/fonts/Lato-Regular.woff2") format("woff2"),
+    url("../createx/fonts/Lato-Regular.woff2") format("woff"),
+    url("../createx/fonts/Lato-Regular.eot") format("eot");
+  font-display: swap;
+}
+
